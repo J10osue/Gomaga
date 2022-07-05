@@ -35,7 +35,7 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/futbol', checkApiKey, (req, res) =>{
-  res.send('Ourr app is going to be the best')
+  res.send('Ourr app is goinsg to be the best')
 })
 
 app.get('/clientes', (req, res) =>{
