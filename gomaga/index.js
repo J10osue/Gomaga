@@ -39,7 +39,7 @@ app.get('/futbol', checkApiKey, (req, res) =>{
 })
 
 app.get('/clientes', (req, res) =>{
-  res.send('games22')
+  res.send('games22s')
 })
 
 routerApi(app)
